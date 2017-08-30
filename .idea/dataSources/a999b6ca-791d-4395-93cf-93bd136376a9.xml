@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SSHBlog@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="SSHBlog">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="acesys"/>
+    <schema id="4" parent="1" name="AJAXTest"/>
+    <schema id="5" parent="1" name="bookStore"/>
+    <schema id="6" parent="1" name="bookStoreTest"/>
+    <schema id="7" parent="1" name="eloan"/>
+    <schema id="8" parent="1" name="Ex5"/>
+    <schema id="9" parent="1" name="FCMS"/>
+    <schema id="10" parent="1" name="information_schema"/>
+    <schema id="11" parent="1" name="J2EE_Ex2"/>
+    <schema id="12" parent="1" name="J2EE_Ex3"/>
+    <schema id="13" parent="1" name="J2EE_Ex4"/>
+    <schema id="14" parent="1" name="J2EE_Ex5"/>
+    <schema id="15" parent="1" name="J2EE_Ex6"/>
+    <schema id="16" parent="1" name="mysql"/>
+    <schema id="17" parent="1" name="mySqlTest"/>
+    <schema id="18" parent="1" name="performance_schema"/>
+    <schema id="19" parent="1" name="SSHTest"/>
+    <schema id="20" parent="1" name="SSMBlog"/>
+    <schema id="21" parent="1" name="SSMTest"/>
+    <schema id="22" parent="1" name="sy"/>
+    <schema id="23" parent="1" name="sys"/>
+    <schema id="24" parent="1" name="test"/>
+    <schema id="25" parent="1" name="user"/>
+    <table id="26" parent="2" name="contacts"/>
+    <column id="27" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="26" name="name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="29" parent="26" name="address">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="30" parent="26" name="gender">
+      <Position>4</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="31" parent="26" name="dob">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="32" parent="26" name="email">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="33" parent="26" name="mobile">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+    </column>
+    <key id="34" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
