@@ -1,6 +1,7 @@
 package com.sshblog.service.impl;
 
 import com.sshblog.dao.ContactsDAOI;
+import com.sshblog.entity.Contacts;
 import com.sshblog.service.ContactsServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

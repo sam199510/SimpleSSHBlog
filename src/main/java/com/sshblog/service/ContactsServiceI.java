@@ -1,5 +1,7 @@
 package com.sshblog.service;
 
+import com.sshblog.entity.Contacts;
+
 import java.util.List;
 
 public interface ContactsServiceI {

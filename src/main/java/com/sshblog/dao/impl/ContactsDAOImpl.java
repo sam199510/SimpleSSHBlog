@@ -1,6 +1,7 @@
 package com.sshblog.dao.impl;
 
 import com.sshblog.dao.ContactsDAOI;
+import com.sshblog.entity.Contacts;
 import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
