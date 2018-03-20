@@ -1,8 +1,0 @@
-com/sshblog/dao/impl/ContactsDAOImpl.class
-com/sshblog/dao/ContactsDAOI.class
-com/sshblog/entity/Contacts.class
-com/sshblog/action/converter/DateConverter.class
-com/sshblog/util/DateUtils.class
-com/sshblog/controller/SSHBlogController.class
-com/sshblog/service/ContactsServiceI.class
-com/sshblog/service/impl/ContactsServiceImpl.class
